@@ -1,5 +1,5 @@
 html {
-  margin: 0;
+  	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 62.5%;
@@ -8,5 +8,5 @@ html {
 }
 
 img {
-  max-width:50rem;
+	max-width:20rem;
 }
