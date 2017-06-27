@@ -9,4 +9,6 @@ html {
 
 img {
 	max-width:20em;
+	border: 2px solid black;
+	border-radius: 3em;
 }
