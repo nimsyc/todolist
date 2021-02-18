@@ -8,7 +8,7 @@ html {
 }
 
 img {
-	max-width:20em;
+	max-width:10em;
 	border: 2px solid black;
 	border-radius: 3em;
 }
