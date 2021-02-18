@@ -7,7 +7,7 @@ html {
 	vertical-align: baseline;
 }
 
-img {
+img.pics {
 	max-width:10em;
 	border: 2px solid black;
 	border-radius: 3em;
