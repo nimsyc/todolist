@@ -9,6 +9,12 @@ html {
 
 img.pics {
 	max-height:10em;
+	width: 10em;
 	border: 2px solid black;
 	border-radius: 3em;
+}
+
+ul {
+	list-style-type: none;
+
 }
