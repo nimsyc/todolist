@@ -1,8 +1,10 @@
-$(document).ready(function() {
+/**
+ * $(document).ready(function() {
   $("img").onclick(function() {
     $(this).css('opacity', '0.3');
   });
 });
+*/
 
 // Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");

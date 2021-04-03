@@ -1,9 +1,4 @@
-html {
-  	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 62.5%;
-	font: inherit;
+* {
 	vertical-align: baseline;
 	box-sizing: border-box;
 }
@@ -12,14 +7,9 @@ div.header {
 	border: 3px solid gray;
 }
 
-li {
-	//width: 10em;
-}
-
 ul {
 	margin: 0;
 	padding: 0;
-	list-style-type: none;
 }
 
 ul li {
@@ -74,7 +64,7 @@ ul li.checked::before {
 }
 
 .close:hover {
-	background-color: rgb(65, 194, 153)
+	background-color: rgb(65, 194, 153);
 	color: white;
 }
 
@@ -91,7 +81,8 @@ ul li.checked::before {
 	clear: both;
 }
 
-input {
+
+input[type="text"] {
 	margin: 0;
 	border: none;
 	border-radius: 0;
@@ -100,6 +91,14 @@ input {
 	float: left;
 	font-size: 16px;
 }
+
+input[type="checkbox"] {
+	width: auto;
+	float: left;
+	text-align: left;
+	
+}
+
 
 /* Style the "Add" button */
 .addBtn {
@@ -115,12 +114,13 @@ input {
 	border-radius: 0;
   }
   
-  .addBtn:hover {
+.addBtn:hover {
 	background-color: #bbb;
-  }
+}
 
 img.pics {
-	max-height:10em;
+	float:none;
+	max-height: 10em;
 	width: 10em;
 	border-radius: 3em;
 }
